@@ -28,5 +28,8 @@ def ex_1(a):
         print(nums[e])
 
 
-
 ex_1(10)
+
+
+def ex_2(b):
+    return 0
