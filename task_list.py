@@ -15,7 +15,6 @@
 и деления их на 2.
 
 """
-
 # _1_
 
 from random import randint
@@ -27,6 +26,7 @@ def ex_1(a):
     # print('rand,', randint(1, 10))
     for e in range(3, len(nums), 3):
         print(nums[e])
+
 
 
 ex_1(10)
