@@ -15,3 +15,14 @@
 и деления их на 2.
 
 """
+
+# _1_
+
+from random import randint
+
+
+def ex_1(a):
+    nums = [randint(1, 10) for i in range(a)]
+    print(nums)
+    for e in range(3, len(nums), 3):
+        print(nums[e])
