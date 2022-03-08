@@ -22,7 +22,11 @@ from random import randint
 
 
 def ex_1(a):
-    nums = [randint(1, 10) for i in range(a)]
+    nums = [randint(1, 2) for i in range(a)]
     print(nums)
+    # print('rand,', randint(1, 10))
     for e in range(3, len(nums), 3):
         print(nums[e])
+
+
+ex_1(10)
